@@ -1,0 +1,81 @@
+:root{
+    --font-color: black;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.13);
+    padding: 2%;
+    border-radius: 20px;
+    width: 30%;
+    color: var(--font-color);
+    background-color: rgb(255, 255, 255);
+}
+
+form input{
+    text-align: center;
+    padding: 0%;
+    margin: 1% 0;
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    /* border: 1px solid var(--font-color); */
+    background-color: rgb(214, 214, 214);
+    border-radius: 30px;
+    transition: .2s;
+}
+form input::placeholder{
+    color: var(--font-color);
+}
+form input[type="submit"]{
+    margin-top: 2.5%;
+    background-color: var(--font-color);
+    color: white;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.notification{
+    padding: 10px;
+    color: white;
+    width: 20%;
+    min-height: 50px;
+    position: absolute;
+    right: 2%;
+    top: 0%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    opacity: 0;
+    transition: .2s;
+    display: flex;
+}
+.notification img{
+    width: 3.7rem;
+    height: 3.7rem;
+    margin: 2%;
+}
+
+.error{
+    background-color: rgb(226, 82, 82);
+}

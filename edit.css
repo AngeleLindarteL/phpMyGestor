@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.backBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 29%;
+    background-color: rgb(223, 75, 75);
+    height: 7vh;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.103);
+    width: 25%;
+    padding: 2%;
+}
+
+form img{
+    width: 20vh;
+    height: 20vh;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.103);
+    border-radius: 50%;
+    margin-bottom: 3%;
+    object-fit: cover;
+}
+
+form input{
+    padding: 0;
+    margin: 0;
+    width: 97%;
+    padding-left: 3%;
+    height: 5vh;
+    border: 1px solid rgb(218, 218, 218);
+    margin: 1%;
+    border-radius: 20px;
+}
+form label{
+    width: 98%;
+    font-size: 1.2rem;
+    margin-left:1%;
+}
+form select{
+    margin: 1%;
+    border-radius: 20px;
+    border: 1px solid rgb(218, 218, 218);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 5vh;
+}
+form input[type="submit"]{
+    margin-top: 2%;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(97, 97, 180);
+    color: white;
+    font-size: 1.2rem;
+    height: 7vh;
+    text-transform: uppercase;
+    transition: .2s;
+}
+form input[type="submit"]:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
