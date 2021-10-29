@@ -1,9 +1,9 @@
 # phpMyGestor
-A simple user gestion system made with PHP with what i've learned in SENA. \n
+A simple user gestion system made with PHP with what i've learned in SENA.
 
 Requirements:
-• XAMPP \n
-• MySQL \n
+• XAMPP
+• MySQL
 • PHP
 
 Warnings:
